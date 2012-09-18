@@ -1,0 +1,30 @@
+{
+	"author":"E-conomic",
+	"name":"nodeversioncheck",
+	"description": "Will exit the process with code 1 if the node version running is not compatible with the one specified in package.json of working directory",
+	"version":"1.0.0",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/e-conomic/nodeversioncheck"
+	},
+	"private":false,
+	"main":"./source/nodeversioncheck.js",
+	"engines":{
+		"node":">=0.6"
+	},
+	"dependencies":{
+		"semver": ""
+	},
+	"scripts":{
+		"test":"node ./bin/runTests.js"
+	},
+	"devDependencies":{
+		"mocha":"~1.1",
+		"chai":"~1.0",
+		"sinon":"~1.3",
+		"sinon-chai":"~2.1",
+		"request": "",
+		"jshint": "~0.8"
+	},
+	"optionalDependencies":{}
+}
